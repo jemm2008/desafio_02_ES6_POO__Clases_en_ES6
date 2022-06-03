@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "babel": "npx babel -d dist/ assets/js --config-file ./babel.config.json",
+    "browserify": "browserify dist/script.js -o dist/bundle.js",
+    "compilar": "npm run babel && npm run browserify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

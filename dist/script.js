@@ -8,7 +8,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 //Start
 //
+alert("Hola!, Buen d\xEDa!! por favor\nabrir 'Inspecionar', luego abrir la \"Consola\",\nlos ejercicios se muestran en la misma."); //
 //  *******  CREAR  IMPUESTOS  *******  //
+
 var Impc1 = new _Impuestos["default"](12780000);
 var Impc2 = new _Impuestos["default"](6590000);
 var Impc3 = new _Impuestos["default"](3135500);
